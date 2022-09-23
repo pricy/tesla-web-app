@@ -3,15 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>tesla-web-app</artifactId>
+	<artifactId>jeep-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	
-	<name>landrover-web-app</name>
+	<name>jeep-web-app</name>
 
 	<description>Maven Web Project for Java Project</description>
 	<organization>
-		<name>Landrover App</name>
+		<name>Jeep App</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>landrover-web-app</finalName>
+		<finalName>jeep-web-app</finalName>
 		
 		<plugins>
 			<plugin>
@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/landrover-web-app</contextPath>
+						<contextPath>/jeep-web-app</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -140,7 +140,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>landrover-web-app</wtpContextName>
+					<wtpContextName>jeep-web-app</wtpContextName>
 				</configuration>
 			</plugin>
 			
