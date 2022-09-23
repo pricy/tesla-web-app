@@ -7,11 +7,11 @@
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	
-	<name>tesla-web-app</name>
+	<name>landrover-web-app</name>
 
 	<description>Maven Web Project for Java Project</description>
 	<organization>
-		<name>Tesla App</name>
+		<name>Landrover App</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -20,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.234.211.165:9000/</sonar.host.url>
+		<sonar.host.url>http://34.236.154.239:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,18 +96,18 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.226.130.103:8081/repository/tesla-fe-releases/</url> 
+	      <url>http://52.54.146.192:8081/repository/tesla-fe-releases/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.226.130.103:8081/repository/tesla-fe-snapshots/</url>
+	      <url>http://52.54.146.192:8081/repository/tesla-fe-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-web-app</finalName>
+		<finalName>landrover-web-app</finalName>
 		
 		<plugins>
 			<plugin>
@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/tesla-web-app</contextPath>
+						<contextPath>/landrover-web-app</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -140,7 +140,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>tesla-web-app</wtpContextName>
+					<wtpContextName>landrover-web-app</wtpContextName>
 				</configuration>
 			</plugin>
 			
