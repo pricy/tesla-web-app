@@ -3,15 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>hyundai-web-app</artifactId>
+	<artifactId>chevy-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	
-	<name>hyundai-web-app</name>
+	<name>chevy-web-app</name>
 
-	<description>Hyundai Web Project for Java Project</description>
+	<description>Maven Web Project for Java Project</description>
 	<organization>
-		<name>Hyundai App</name>
+		<name>Chevy App</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -20,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://35.173.167.29:9000/</sonar.host.url>
+		<sonar.host.url>35.173.167.29:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -102,18 +102,18 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.172.147.137:8081/repository/tesla-fe-snapshots/</url>
+	      <url>http://335.172.147.137:8081/repository/tesla-fe-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
-		<finalName>hyundai-web-app</finalName>
+		<finalName>chevy-web-app</finalName>
 		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.10.1</version>
+				<version>3.3</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/hyundai-web-app</contextPath>
+						<contextPath>/chevy-web-app</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -140,7 +140,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>hyundai-web-app</wtpContextName>
+					<wtpContextName>chevy-web-app</wtpContextName>
 				</configuration>
 			</plugin>
 			
